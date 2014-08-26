@@ -4,9 +4,9 @@ var router = express.Router();
 
 var bunnies = {
     greeting: "Welcome to Stefan's officially unofficial api, bunnies!",
-    available: [
+    available: {
         site_url: "http://stfn.me"
-    ]
+    }
 }
 
 
